@@ -13,11 +13,11 @@ Implementando histórias de usuários em JavaScript
 ## Protótipos
 
 ### 💻 História de Usuário 1: Promoção de Curso Online de Capacitação - Uma plataforma de fácil acesso
-![pagina-login](https://github.com/mluizaguedes/curso-onlineABCD/assets/126245983/59045ac0-437b-4551-96d1-bba022bb0a0a)
-![pagina-home](https://github.com/mluizaguedes/curso-onlineABCD/assets/126245983/94e5c70c-39a5-46ae-b934-74beb6454377)
+![pagina-login](https://github.com/mluizaguedes/curso-online-abcd/assets/126245983/6b1a727b-59fa-4b43-b2d9-20c7f339fd4f)
+![pagina-home](https://github.com/mluizaguedes/curso-online-abcd/assets/126245983/14814def-9c5b-44c9-86a1-1e6470b629d6)
 
 ### ❓ História de Usuário 2: Seção de Soluções no FAQ
-![pagina-faq](https://github.com/mluizaguedes/curso-onlineABCD/assets/126245983/47978e21-b735-461f-a5f5-05368fbc1112)
+![pagina-faq](https://github.com/mluizaguedes/curso-online-abcd/assets/126245983/0e051259-106a-4f82-a6f4-16e449b16113)
 
 ## Para rodar o projeto:
 
