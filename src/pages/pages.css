@@ -1,0 +1,478 @@
+/*header*/
+.header {
+  background: #4484ce;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17.5px 140px 17.5px 0;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+.campo-de-busca {
+  border-radius: 2px;
+  background: #ffffff;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 8%;
+  align-items: center;
+  padding: 0 10px;
+  width: 100%;
+  max-width: 622px;
+  height: 35px;
+  box-sizing: border-box;
+}
+.lupa-icon {
+  width: 25px;
+  height: 25px;
+}
+.icon-menu-navbar {
+  display: flex;
+  width: 30px;
+  height: 20px;
+  box-sizing: border-box;
+}
+.menu-icon {
+  width: 30px;
+  height: 20px;
+}
+
+.input-busca {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+  box-sizing: border-box;
+}
+
+.lupa-icon {
+  cursor: pointer;
+}
+
+/*logo*/
+.logo-1 {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  padding: 21px 5px 0 6px;
+  width: 120px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.curso-online-1 {
+  position: absolute;
+  top: 0px;
+  overflow-wrap: break-word;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+.abcd-1 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 32px;
+  color: #000000;
+}
+
+/*menu*/
+.links-container {
+  margin: 14px 0 37px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: fit-content;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.pages-link {
+  cursor: pointer;
+  margin-right: 30px;
+  overflow-wrap: break-word;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+.pages-active-link {
+  cursor: pointer;
+  margin-right: 30px;
+  overflow-wrap: break-word;
+  font-family: "Roboto";
+  font-weight: 450;
+  font-size: 14px;
+  color: #1a64ba;
+}
+
+.entrar .email-icon {
+  width: 21.7px;
+  height: 17.3px;
+  cursor: pointer;
+}
+.entrar .icoutline-email {
+  margin: 14.3px 100px 38.3px 0;
+  display: flex;
+  width: 21.7px;
+  height: 17.3px;
+  box-sizing: border-box;
+}
+
+/*login*/
+.menu {
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85%;
+  box-sizing: border-box;
+}
+.menu2 {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 998.5px;
+  box-sizing: border-box;
+}
+.login-title {
+  margin: 0 20px 30px 0;
+  overflow-wrap: break-word;
+  font-family: var(--ttulo-font-family, "Roboto");
+  font-weight: var(--ttulo-font-weight, 500);
+  font-size: var(--ttulo-font-size, 30px);
+  color: #000000;
+  text-align: center;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.email {
+  margin-bottom: 10px;
+  display: block;
+  overflow-wrap: break-word;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: #102236;
+}
+.input-box {
+  border: 1px solid #4484ce;
+  background: #bccbdc;
+  padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: #4e6279;
+  margin-bottom: 5%;
+}
+.inputs {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  box-sizing: border-box;
+}
+.senha {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: block;
+  overflow-wrap: break-word;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: #102236;
+}
+
+.entrar-button {
+  cursor: pointer;
+  border-radius: 6px;
+  background: #4484ce;
+  position: relative;
+  margin: 0 0 22px 0;
+  display: flex;
+  padding: 8px 11px 8px 11px;
+  box-sizing: border-box;
+  width: fit-content;
+}
+.entrar-text {
+  overflow-wrap: break-word;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+.nao-tenho-login {
+  cursor: pointer;
+  overflow-wrap: break-word;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  color: #1a64ba;
+}
+
+/**/
+
+/* Tablet and smaller devices */
+@media (max-width: 1024px) {
+  .container-3 {
+    padding: 35px 0 88px 0; /* Adjusts padding for tablets */
+    margin-bottom: 70px; /* Reduces bottom margin for tablets */
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container-4 {
+    padding: 35px 0 88px 0; /* Adjusts padding for tablets */
+    margin-bottom: 70px; /* Reduces bottom margin for tablets */
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.container-3 {
+  background: #d5dfea;
+  position: relative;
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 45px 0 98px 0;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.container-4 {
+  background: #d5dfea;
+  position: relative;
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 45px 0 98px 0;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.abcd {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 42px;
+  color: #a3adb7;
+}
+.curso-online {
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
+  overflow-wrap: break-word;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 21px;
+  color: #a3adb7;
+}
+.logo {
+  position: relative;
+  margin-bottom: 30.4px;
+  display: flex;
+  padding: 21px 5px 0 6px;
+  box-sizing: border-box;
+}
+
+/*footer*/
+.footer {
+  background: #102236;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 34px 0 31.6px 0;
+  width: 100%;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+.footer-container-1 {
+  margin-bottom: 5.4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.footer-component-1 {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 200px;
+}
+.link-footer {
+  cursor: pointer;
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: #1a64ba;
+  text-align: center;
+  text-decoration: none;
+}
+.copyright-2024 {
+  margin: 5px 0;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: #4484ce;
+  text-align: center;
+}
+.icon-copyright {
+  margin-right: 8.6px;
+  width: 15.8px;
+  height: 15.8px;
+  box-sizing: border-box;
+}
+.copyright {
+  margin-top: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.vector {
+  max-width: 100%;
+  height: auto;
+}
+
+.container-2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+.entrar {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+/*home*/
+.curso-online-de-capacitao {
+  margin: 0 529.4px 29px 0;
+  font-family: var(--ttulo-font-family, "Roboto"), sans-serif;
+  font-weight: var(--ttulo-font-weight, 700);
+  font-size: var(--ttulo-font-size, 34px);
+  color: #000000;
+}
+
+.descricao-container {
+  margin: 0 512.8px 61px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.descricao-text {
+  overflow-wrap: break-word;
+  width: 450px;
+  font-family: var(--texto-contedo-azul-font-family, "Roboto");
+  font-weight: var(--texto-contedo-azul-font-weight, 400);
+  font-size: var(--texto-contedo-azul-font-size, 1em);
+  color: #4484ce;
+}
+
+.home-entrar-button {
+  cursor: pointer;
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 21px;
+  color: #ffffff;
+}
+
+.home-entrar-button-bg {
+  cursor: pointer;
+  border-radius: 4px;
+  background: #4484ce;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
+  width: 270px;
+  height: 45px;
+}
+
+.home-entrar {
+  border-radius: 10px;
+  position: relative;
+  margin-right: 687.8px;
+  display: flex;
+  padding: 10px 0.4px 10px 0;
+  width: 270px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+/*FAQ*/
+.perguntas-frequentes{
+  margin: 0 636px 30px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--ttulo-font-family, 'Roboto');
+  font-weight: var(--ttulo-font-weight, 700);
+  font-size: var(--ttulo-font-size, 34px);
+  color: #000000;
+}
+
+.perguntas{
+  justify-content: left;
+  margin-right: 100px;
+  margin-bottom: 40px;
+}
+
+.container-pergunta{
+  cursor: pointer;
+  border-radius: 7px;
+  background: #A0C1CF;
+  margin: 0 0 5px 2px;
+  padding: 14px 10px 13px 10px;
+  width: 900px;
+  box-sizing: border-box;
+}
+
+.pergunta{ 
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 21px;
+  color: #213E60;
+}
