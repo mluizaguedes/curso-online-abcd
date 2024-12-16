@@ -1,4 +1,4 @@
-## Título e objetivo do Projeto:
+## Atividade Avaliativa Individual - Engenharia de Software II:
 Desenvolvimento de um curso online de capacitação para clientes. O objetivo é melhorar o conhecimento e habilidades dos clientes em relação ao produto ou serviço oferecido pela empresa ABCD. O curso deve incluir módulos interativos, recursos de feedback e um sistema de avaliação.
 
 #### Entregas anteriores: Backlog do produto e o [Protótipo no Figma](https://www.figma.com/proto/hpcH1ac7DP0ija93rupW8W/Curso3?node-id=0-1&t=ymKqEmTWrj5eUgIS-1)
